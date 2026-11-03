@@ -1,8 +1,9 @@
 CREATE TABLE Subscription (
-    Reader_code INTEGER PRIMARY KEY,
-    Surname VARCHAR(100),
-    Name VARCHAR(100),
-    Patronymic VARCHAR(100),
-    Address VARCHAR(255),
-    Phone VARCHAR(20)
+    Reader_code INTEGER NOT NULL,
+    Book_code INTEGER NOT NULL,
+    Issue_date DATE NOT NULL,
+    Duration INTEGER NOT NULL,
+    Return_mark BOOLEAN NOT NULL,
+
+    PRIMARY KEY (Reader_code, Book_code, Issue_date)
 );
