@@ -1,4 +1,4 @@
-CREATE TABLE Reader (
+CREATE TABLE Subscription (
     Reader_code INTEGER PRIMARY KEY,
     Surname VARCHAR(100),
     Name VARCHAR(100),
