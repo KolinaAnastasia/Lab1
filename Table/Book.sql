@@ -1,4 +1,4 @@
-CREATE TABLE Book (
+CREATE TABLE Books (
     Book_code INTEGER PRIMARY KEY,
     Author_code INTEGER,
     Title VARCHAR(255),
